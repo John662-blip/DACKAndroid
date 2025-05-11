@@ -1,0 +1,14 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Nền bên trong -->
+    <solid android:color="@android:color/transparent" /> <!-- hoặc @android:color/transparent -->
+
+    <!-- Viền -->
+    <stroke
+        android:width="2dp"
+        android:color="#33000000" /> <!-- Đổi sang màu bạn muốn -->
+
+    <!-- Bo góc nếu cần -->
+    <corners android:radius="8dp" /> <!-- bo nhẹ nhẹ góc -->
+</shape>
